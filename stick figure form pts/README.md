@@ -91,15 +91,6 @@ stick-figure-from-keypoints/
 - `animate_wave()`: Creates arm waving animation
 - `animate_walk()`: Creates walking animation
 
-
-## 🔮 Future Improvements
-
-### Short-term Enhancements
-- [ ] Add more joint details (fingers, toes, facial landmarks)
-- [ ] Implement pose smoothing and interpolation
-- [ ] Export animations as GIF or MP4
-- [ ] Add collision detection for realistic motion bounds
-
 ### Advanced Extensions
 - [ ] **Real Pose Detection**: Integrate MediaPipe or OpenPose for live webcam pose tracking
 - [ ] **Motion Capture Pipeline**: Record and replay pose sequences
