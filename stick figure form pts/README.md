@@ -4,7 +4,7 @@ A Python project that generates and visualizes human stick-figure skeletons usin
 
 ![Stick Figure Visualization](output.png)
 
-## 🎯 Project Description
+## Project Description
 
 This project simulates the fundamental representation used in pose estimation systems. Instead of detecting poses from images (which requires models like MediaPipe or OpenPose), we work directly with 2D joint coordinates to understand how skeletal structures are represented and animated in computer vision pipelines.
 
@@ -14,7 +14,7 @@ This project simulates the fundamental representation used in pose estimation sy
 - **Skeletal Animation**: Shows the foundation of character rigging in game engines and animation software
 - **Data Representation**: Illustrates how human pose can be encoded as structured coordinate data
 
-## ✨ Features
+## Features
 
 - **✓ 15-Joint Human Skeleton Model**: Anatomically structured body representation
 - **✓ Realistic Skeleton Connections**: Proper bone structure connecting head, torso, arms, and legs
@@ -27,13 +27,13 @@ This project simulates the fundamental representation used in pose estimation sy
 - **✓ Joint Update System**: Programmatic control of individual joint positions
 - **✓ Proper Proportions**: Realistic human body ratios
 
-## 🛠️ Technologies Used
+## Technologies Used
 
 - **Python 3.7+**: Core programming language
 - **Matplotlib**: Visualization and animation framework
 - **NumPy**: Numerical computations for smooth motion
 
-## 📋 Joint Structure
+## Joint Structure
 
 The skeleton consists of 15 key joints:
 
@@ -43,24 +43,11 @@ Arms: left_elbow, left_wrist, right_elbow, right_wrist
 Legs: left_knee, left_ankle, right_knee, right_ankle
 ```
 
-## 🚀 How to Run
+## How to Run
 
 ### Prerequisites
 
 Ensure you have Python 3.7 or higher installed.
-
-### Installation
-
-1. Clone this repository or download the files:
-```bash
-git clone <your-repo-url>
-cd stick-figure-from-keypoints
-```
-
-2. Install required dependencies:
-```bash
-pip install -r requirements.txt
-```
 
 ### Running the Program
 
@@ -104,19 +91,6 @@ stick-figure-from-keypoints/
 - `animate_wave()`: Creates arm waving animation
 - `animate_walk()`: Creates walking animation
 
-**Coordinate System:**
-- Origin (0, 0) at center
-- Y-axis increases upward
-- Normalized coordinates for easy scaling
-
-## 🎓 Skills Demonstrated
-
-- **Computer Vision Fundamentals**: Understanding pose representation as coordinate data
-- **Data Visualization**: Matplotlib plotting and styling
-- **Skeletal Modeling**: Creating anatomically plausible joint structures
-- **Animation Principles**: Frame-by-frame motion using mathematical functions
-- **Object-Oriented Programming**: Clean, modular class design
-- **Python Programming**: Best practices and documentation
 
 ## 🔮 Future Improvements
 
@@ -135,7 +109,7 @@ stick-figure-from-keypoints/
 - [ ] **Full Kinemation System**: Create complete motion animation pipeline
 - [ ] **Pose Dataset Support**: Load from COCO, MPII, or custom datasets
 
-## 📊 Use Cases
+## Use Cases
 
 This foundational project can be extended for:
 - **Fitness Applications**: Exercise form analysis
@@ -145,20 +119,12 @@ This foundational project can be extended for:
 - **Surveillance**: Human activity recognition
 - **VR/AR**: Avatar control and motion tracking
 
-## 🤝 Contributing
 
-Feel free to fork this project and submit pull requests for improvements or bug fixes.
-
-## 📄 License
+## License
 
 This project is open source and available for educational purposes.
 
-## 🙏 Acknowledgments
 
-- Inspired by pose estimation research in computer vision
-- Animation techniques based on skeletal animation principles
-- Joint structure follows standard human kinematic models
 
 ---
 
-**Built to demonstrate the bridge between raw coordinate data and visual pose representation** 🎨
